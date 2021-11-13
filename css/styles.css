@@ -18,6 +18,7 @@ body {
 #num {
     color: #fff;
     font-size: 18em;
+    font-family: monospace;
 }
 
 .btn-container {
