@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+}
+
+.container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#num {
+    color: #fff;
+    font-size: 18em;
+}
+
+.btn-container {
+    display: flex;
+}
+
+input {
+    width: 100px;
+    height: 80px;
+    font-size: 3em;
+    color: #fff;
+    background-color: #4f4;
+    border: none;
+    margin: 0;
+}
+
+input:hover {
+    background-color: #4f4a
+}
+
+@media (max-width:  675px) {
+    .container {
+        height: 85vh;
+    }
+}
